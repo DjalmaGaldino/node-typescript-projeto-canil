@@ -1,0 +1,19 @@
+import { Request, Response } from 'express';
+
+// essas rotas para ser importada no index routes
+export const home = (req: Request, res: Response) => {
+    res.send('home no controller');
+    // res.render('pages/page');
+}
+
+export const dogs = (req: Request, res: Response) => {
+    // res.render('pages/page');
+}
+
+export const cats = (req: Request, res: Response) => {
+    // res.render('pages/page');
+}
+
+export const fishes = (req: Request, res: Response) => {
+    // res.render('pages/page');
+}
