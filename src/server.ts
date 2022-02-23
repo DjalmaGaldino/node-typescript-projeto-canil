@@ -24,7 +24,7 @@ server.use(mainRoutes);
 
 // configurando uma pagina de error
 server.use((req, res) => {
-    res.send('pagina não encontrada!')
+    res.render('pages/404')
 })
 
 // ja tenho um arquivo na porta 4000, por isso devo deixar na 80 agora, senao não roda
